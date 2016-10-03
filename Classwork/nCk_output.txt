@@ -1,0 +1,47 @@
+Python 3.3.2 (v3.3.2:d047928ae3f6, May 16 2013, 00:06:53) [MSC v.1600 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+n? -1
+k? 5
+Negative numbers are invalid input.
+>>> ================================ RESTART ================================
+>>> 
+n? 0
+k? 0
+Bottom-up method: 
+	Operations:  0
+	 0  choose  0 :  1
+Top-Down with memoization: 
+	Operations:  1
+	 0  choose  0 :  1
+Basic Recursive: 
+	Operations:  1
+	 0  choose  0 :  1
+>>> ================================ RESTART ================================
+>>> 
+n? 5
+k? 3
+Bottom-up method: 
+	Operations:  15
+	 5  choose  3 :  10
+Top-Down with memoization: 
+	Operations:  13
+	 5  choose  3 :  10
+Basic Recursive: 
+	Operations:  29
+	 5  choose  3 :  10
+>>> ================================ RESTART ================================
+>>> 
+n? 100
+k? 3
+Bottom-up method: 
+	Operations:  300
+	 100  choose  3 :  161700
+Top-Down with memoization: 
+	Operations:  583
+	 100  choose  3 :  161700
+Basic Recursive: 
+	Operations:  8165849
+	 100  choose  3 :  161700
+>>> 
